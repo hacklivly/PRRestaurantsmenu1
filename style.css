@@ -15,7 +15,7 @@ body {
 .slider {
   display: flex;
   height: 100%;
-  width: 400%; /* 4 images, so 4 times the width */
+  width: 400%; /* 4 images = 4x width */
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
 }
