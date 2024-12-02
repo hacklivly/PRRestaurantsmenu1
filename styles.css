@@ -15,7 +15,7 @@ body {
 .slider {
   display: flex;
   height: 100%;
-  width: 400%; /* 4 images = 4x width */
+  width: 400%; /* 4 slides */
   transform: translateX(0);
   transition: transform 0.5s ease-in-out;
 }
@@ -34,10 +34,12 @@ body {
   background: rgba(0, 0, 0, 0.5);
   color: #fff;
   border: none;
-  padding: 10px;
+  padding: 15px;
   cursor: pointer;
   z-index: 10;
   font-size: 1.5rem;
+  border-radius: 50%;
+  outline: none;
 }
 
 .slider-btn.prev {
@@ -46,4 +48,9 @@ body {
 
 .slider-btn.next {
   right: 10px;
+}
+
+.slider-btn span {
+  display: block;
+  font-size: 2rem;
 }
